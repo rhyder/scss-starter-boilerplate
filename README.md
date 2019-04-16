@@ -1,10 +1,10 @@
-# scss starter project
+# scss starter boilerplate
 
 Just a simple scss starter boilerplate which I use when quickly creating css styles.
 
 ### Installation
 
-This starter project requires [Node.js](https://nodejs.org/) to run.
+This boilerplate requires [Node.js](https://nodejs.org/) to run.
 
 Install the dependencies and start the server.
 

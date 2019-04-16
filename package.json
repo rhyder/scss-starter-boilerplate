@@ -1,7 +1,7 @@
 {
   "name": "scss-framework-boilerplate",
   "version": "1.0.0",
-  "description": "scss starter",
+  "description": "A simple scss project to quickly get started.",
   "main": "index.js",
   "website": "https://github.com/SamRidings/scss-starter-boilerplate",
   "scripts": {
