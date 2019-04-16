@@ -1,0 +1,38 @@
+button, .button {
+    height: $default-height;
+
+    background: $light;
+
+    outline: none;
+    padding: 0 20px;
+    display: inline-block;
+    vertical-align: middle;
+
+    @include border-rounded(none);
+
+    transition: $transition;
+
+    font-size: $base;
+    text-decoration: none;
+    text-align: center;
+
+    box-shadow: $box-shadow-inactive;
+
+    color: $dark;
+
+    &:hover, &:focus {
+        box-shadow: $box-shadow-active;
+        cursor: pointer;
+        text-decoration: none;
+    }
+    
+    &:active {
+        opacity: 0.7;
+        text-decoration: none;
+    }
+
+    &:disabled {
+        opacity: 0.9;
+        cursor: not-allowed;
+    }
+}

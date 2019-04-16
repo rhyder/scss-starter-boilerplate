@@ -1,0 +1,14 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: $dark;
+    font-family: $font;
+    font-style: normal;
+    text-rendering: optimizeLegibility;
+    line-height: 1.4;
+    letter-spacing: 0;
+    font-weight: 400px;
+}

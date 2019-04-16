@@ -1,0 +1,43 @@
+/**
+ * My css framework v1.0.0
+ * Copyright 2019 Samuel Ridings
+ * www.samridings.com
+ */
+html, body {
+  margin: 0;
+  padding: 0; }
+
+body {
+  color: #424242;
+  font-family: -apple-system, BlinkMacSystemFont, Avenir, "Avenir Next", "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  font-style: normal;
+  text-rendering: optimizeLegibility;
+  line-height: 1.4;
+  letter-spacing: 0;
+  font-weight: 400px; }
+
+button, .button {
+  height: 35px;
+  background: #fafafa;
+  outline: none;
+  padding: 0 20px;
+  display: inline-block;
+  vertical-align: middle;
+  border: 1px;
+  border-radius: 4px;
+  transition: all 0.2s ease-in-out;
+  font-size: 16px;
+  text-decoration: none;
+  text-align: center;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+  color: #424242; }
+  button:hover, button:focus, .button:hover, .button:focus {
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    text-decoration: none; }
+  button:active, .button:active {
+    opacity: 0.7;
+    text-decoration: none; }
+  button:disabled, .button:disabled {
+    opacity: 0.9;
+    cursor: not-allowed; }

@@ -1,0 +1,8 @@
+@mixin border-rounded($color) {
+    @if $color == none {
+        border: 1px;
+    } @else {
+        border: 1px solid $color;
+    }
+    border-radius: $radius;
+}
