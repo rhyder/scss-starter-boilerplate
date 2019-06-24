@@ -12,6 +12,8 @@ Install the dependencies and start the server.
 
 ```
 npm install
+npm i gulp -g
+
 gulp
 ```
 
